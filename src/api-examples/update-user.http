@@ -1,0 +1,38 @@
+PATCH http://localhost:3000/user/1
+#
+Content-Type: application/json
+
+{
+  "name": "Bob Brown",
+  "email": "bobbrown@example.com"
+}
+
+###
+PATCH http://localhost:3000/user/2
+#
+Content-Type: application/json
+
+{
+  "name": "Alice Crown",
+  "email": "alicecrown@example.com"
+}
+
+###
+PATCH http://localhost:3000/user/3
+#
+Content-Type: application/json
+
+{
+  "name": "Daniel Cooper",
+  "email": "danielcooper@example.com"
+}
+
+###
+PATCH http://localhost:3000/user/5
+#
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com"
+}

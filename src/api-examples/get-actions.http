@@ -1,0 +1,1 @@
+GET http://localhost:3001/actions?user=1&page=1&limit=10

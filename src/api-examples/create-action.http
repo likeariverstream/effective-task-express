@@ -1,0 +1,18 @@
+POST http://localhost:3001/action
+#
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "actionType": "create"
+}
+
+###
+POST http://localhost:3001/action
+#
+Content-Type: application/json
+
+{
+"userId": 2,
+"actionType": "create"
+}
